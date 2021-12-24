@@ -16,10 +16,9 @@ export default function Home() {
         </h1>
     </div>
 
+<div> 
         <a href="/search" className={styles.card}>
             <h1>Question 3a</h1>
-
-            
             <ul> 
               <h3> My top 5 favorite task included:</h3>
                 <li>Help train and onboard new support teammates</li>  
@@ -36,9 +35,11 @@ export default function Home() {
                 <li>Analyze hundreds of support tickets to spot trends the product team can use</li>
                 <li>Identify, file (and, where possible, resolve) bugs in private and public Vercel/Next.js repos on GitHub</li>
               </ul>
+              </a>
+  </div> 
           
           
-
+<div>
           <a  className={styles.card}>
             <h2>Question 3b</h2>
             <p>
@@ -55,9 +56,12 @@ export default function Home() {
 
 
 
+
             </p>
           </a>
+</div> 
 
+<div> 
           <a className={styles.card}>
             <h2>Question 3e</h2>
             <p>
@@ -72,8 +76,11 @@ export default function Home() {
              
              If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I will be more than happy to help.
              </p>
+             </a> 
+</div> 
 
 
+<div> 
          <a className={styles.card}>
 
            <h2>Question 3f</h2>
@@ -82,7 +89,9 @@ export default function Home() {
               If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I will be more than happy to help.
             </p>
         </a>
+</div> 
 
+<div> 
            <a className={styles.card}> 
            <h2>Question 3g</h2> 
             <p>
@@ -97,9 +106,7 @@ export default function Home() {
             This process overall was great, very straight forward and to the point. While I did not spend too much time making my site fancy, I did have fun brushing up on my Git, Github, HTML, and react skills. I know I will need to put aside some time to get back into using the git command line and react as I have not used it since attending Lambda but, after playing around with the code I was able to snap back and produce a decent project. 
             </p>
           </a>
-        </a>
-      </a>  
-    </div>  
-
+        </div>
+      </div>  
   )
 }
