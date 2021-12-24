@@ -82,7 +82,6 @@ export default function Home() {
 
 <div className={styles.div}>
          <a className={styles.card}>
-
            <h2>Question 3f</h2>
             <p>
               To use your GoDaddy domain with Vercel, you can follow these steps: https://vercel.com/guides/transferring-domains-to-vercel. 
@@ -100,6 +99,9 @@ export default function Home() {
             their site accordingly. Additionally, the customer may come across issues where they make changes and are not seeing them right away which can be handled via purge request to clear anything in cache and then refetch the correct object from the origin and apply the new settings on the new object.
             </p> 
             </a> 
+</div> 
+
+<div> 
            <a className={styles.card}>
            <h2>Question 3h</h2>
             <p>
