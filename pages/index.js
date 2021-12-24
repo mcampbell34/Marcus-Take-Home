@@ -17,11 +17,11 @@ export default function Home() {
     </div>
 
         <a href="/search" className={styles.card}>
-            <h2>Question 3a</h2>
+            <h1>Question 3a</h1>
 
             
             <ul> 
-              <h1> My top 5 favorite task included:</h1>
+              <h3> My top 5 favorite task included:</h3>
                 <li>Help train and onboard new support teammates</li>  
                 <li> Manage a support team </li> 
                 <li> Run ticket review sessions to make sure tone is consistent</li>
@@ -29,7 +29,7 @@ export default function Home() {
                 <li> Find and recruit teammates for the support team</li>
               </ul>  
               <ul> 
-                <h1> My top 5 least favorite task included:</h1>
+                <h3> My top 5 least favorite task included:</h3>
                 <li>Help resolve billing issues for customers</li>
                 <li>Dig through logs to troubleshoot a customers broken project</li>
                 <li>Respond to 50+ support requests via email every day </li>
@@ -52,7 +52,7 @@ export default function Home() {
           <a  className={styles.card}>
             <h2>Question 3c</h2>
             <p>
-              
+
 
 
             </p>
