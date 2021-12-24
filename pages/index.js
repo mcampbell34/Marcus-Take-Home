@@ -18,7 +18,7 @@ export default function Home() {
 
 <div className={styles.div}> 
         <a href="/search" className={styles.card}>
-            <h1>Question 3a</h1>
+            <h2>Question 3a</h2>
             <ul> 
               <h3> My top 5 favorite task included:</h3>
                 <li>Help train and onboard new support teammates</li>  
@@ -101,7 +101,7 @@ export default function Home() {
             </a> 
 </div> 
 
-<div> 
+<div className={styles.div}> 
            <a className={styles.card}>
            <h2>Question 3h</h2>
             <p>
