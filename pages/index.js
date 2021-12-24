@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
     </div>
 
-<div> 
+<div className={div}> 
         <a href="/search" className={styles.card}>
             <h1>Question 3a</h1>
             <ul> 
@@ -39,7 +39,7 @@ export default function Home() {
   </div> 
           
           
-<div>
+<div className={div}>
           <a  className={styles.card}>
             <h2>Question 3b</h2>
             <p>
@@ -61,7 +61,7 @@ export default function Home() {
           </a>
 </div> 
 
-<div> 
+<div className={div}> 
           <a className={styles.card}>
             <h2>Question 3e</h2>
             <p>
@@ -80,7 +80,7 @@ export default function Home() {
 </div> 
 
 
-<div> 
+<div className={div}> 
          <a className={styles.card}>
 
            <h2>Question 3f</h2>
@@ -91,7 +91,7 @@ export default function Home() {
         </a>
 </div> 
 
-<div> 
+<div className={div}> 
            <a className={styles.card}> 
            <h2>Question 3g</h2> 
             <p>
