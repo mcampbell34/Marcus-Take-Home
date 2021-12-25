@@ -53,10 +53,10 @@ export default function Home() {
           <a  className={styles.card}>
             <h2>Question 3c</h2>
             <p>
-
-
-
-
+              The technical articles that have left the biggest impact on me are the articles provided by w3schools that discuss various HTML aspects. 
+              Such as https://www.w3schools.com/html/, this is because it really helped me believe in myself that coding is something I can do due to 
+              the way these articles and examples are clearly and simply written. I use this model when developing both customer facing and internal
+              documentation. For example, https://support.fastly.com/hc/en-us/community/posts/360070030671-Intro-to-using-FastlyCTL-with-Fastly. 
             </p>
           </a>
 </div> 
@@ -69,8 +69,8 @@ export default function Home() {
             One way to redirect is to add the following snippet within the guide below within your next.config.js file if you are using Next.js or within the vercel.json file if you are using something different:
             (https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects).
 
-             By implementing the suggestions within the guide, you will see a 307 response code on your request. You can use this command to see an example of the redirect behavior, curl -svo dev/null https://marcus-take-home-h8t2a3oaz-mcampbell34.vercel.app/search
-             Additionally, you can use the -L flag via cURL to follow the 308 redirect to a 200 which is where the object now lives.
+             By implementing the suggestions within the guide, you will see a 307 response code on your request. You can use this command to see an example of the redirect behavior, curl -svo dev/null https://marcus-take-home-h8t2a3oaz-mcampbell34.vercel.app/search.
+             Additionally, you can use the -L flag via cURL to follow the 307 redirect to a 200 which is where the object now lives.
 
              Keep in mind that you will need to change permanent to false in order for a temporary redirect to occur, if it is true then you will see a permanent redirect. 
              
@@ -105,7 +105,7 @@ export default function Home() {
            <a className={styles.card}>
            <h2>Question 3h</h2>
             <p>
-            This process overall was great, very straight forward and to the point. While I did not spend too much time making my site fancy, I did have fun brushing up on my Git, Github, HTML, and react skills. I know I will need to put aside some time to get back into using the git command line and react as I have not used it since attending Lambda but, after playing around with the code I was able to snap back and produce a decent project. 
+            This process overall was great, very straight forward and to the point. I did have fun brushing up on my Git, Github, HTML, and react skills. I know I will need to put aside some time to get back into using the git command line and react as I have not used it since attending Lambda but, after playing around with the code I was able to snap back and produce a decent project. 
             </p>
           </a>
         </div>
